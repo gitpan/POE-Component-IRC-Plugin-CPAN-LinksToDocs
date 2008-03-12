@@ -1,0 +1,22 @@
+---
+name: POE-Component-IRC-Plugin-CPAN-LinksToDocs
+version: 0.001
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: get links to http://search.cpan.org/ documentation from IRC
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  CPAN::LinksToDocs: 0.001
+  POE::Component::IRC::Plugin::BaseWrap: 0.001
+build_requires:
+  Test::More: 0
+provides:
+  POE::Component::IRC::Plugin::CPAN::LinksToDocs:
+    file: lib/POE/Component/IRC/Plugin/CPAN/LinksToDocs.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
